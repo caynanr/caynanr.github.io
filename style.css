@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  maxs-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 70%;
+}
+
+/*HEADER MENU*/
+
+.header {
+  width: 100%;
+  padding: 25px;
+  display: none;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #252f3f;
+}
+
+.header nav div a {
+  flex: 1 1 auto;
+  padding: 10px;
+  color: #252f3f;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+}
+
+.header nav ul {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+}
+
+.header nav ul li {
+  margin-left: 6%;
+}
+
+.header nav ul li a {
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #252f3f;
+}
+
+/*RESUMO PESSOAL*/
+
+.resumo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  padding: 5%;
+  color: #252f3f;
+}
+
+.resumo .resumo-text {
+  margin-right: 5%;
+  width: 45%;
+}
+
+.resumo .resumo-text h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.resumo .perfil {
+  width: 30%;
+  justify-self: flex-end;
+}
+
+.resumo .resumo-text h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.resumo-text ul li a {
+  color: #252f3f;
+}
+
+.resumo .perfil img {
+  margin: 0 auto;
+  width: 97%;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.perfil img:hover {
+  width: 99%;
+}
+
+/*PROJECT*/
+.projects {
+  width: 100%;
+  padding: 5%;
+  color: #252f3f;
+}
+
+.projects h2 {
+  font-weight: 700;
+  font-size: 2rem;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.projects .cards-projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards-projects .card {
+  width: 200px;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  flex: 0 1 250px;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-radius: 16px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  flex: 0 1 255px;
+  margin-bottom: 1.2rem;
+  margin-top: -5px;
+}
+
+.card .bg-card img {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.card .card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #374151;
+  margin-bottom: 0.5rem;
+}
+
+.card-content p {
+  color: #374151;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.card .btn {
+  border-radius: 100px;
+  padding: 0.4rem;
+  margin-bottom: 0.4rem;
+  margin-left: 0.4rem;
+  text-align: left;
+  color: #252f3f;
+}
+
+.btn a {
+  color: #252f3f;
+}
+
+/*RESPONSIVO*/
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
