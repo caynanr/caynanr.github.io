@@ -202,10 +202,11 @@ body {
 /*FOOTER*/
 
 .footer {
-  width: 70%;
+  width: 100%;
   text-align: center;
-  padding: 1%;
+  padding: 2%;
   color: #374151;
+  background-color: rgba(55, 65, 81, 0.137);
   text-transform: uppercase;
   font-weight: 600;
 }
