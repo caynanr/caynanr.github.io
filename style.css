@@ -142,12 +142,11 @@ body {
 }
 
 .cards-projects .card {
-  width: 200px;
   min-height: 280px;
   background-color: #fff;
   border-radius: 16px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  flex: 0 1 200px;
+  flex: 0 1 230px;
   margin-bottom: 1rem;
   transition: all 0.3s ease;
   position: relative;
