@@ -181,7 +181,6 @@ body {
   color: #374151;
   font-size: 0.9rem;
   font-weight: 400;
-  margin-bottom: 2rem;
 }
 
 .card .btn {
@@ -253,6 +252,7 @@ body {
   }
 
   .cards-projects .card {
+    min-height: 320px;
     flex: 0 1 300px;
   }
 
