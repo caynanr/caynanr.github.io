@@ -259,6 +259,7 @@ body {
   .resumo .perfil img {
     margin: 0 auto;
     width: 40%;
+    border-radius: 16px;
   }
 
   .perfil img:hover {
