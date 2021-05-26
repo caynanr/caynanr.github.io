@@ -31,7 +31,7 @@ body {
 /*HEADER MENU*/
 
 .header {
-  width: 100%;
+  width: min(80vw, 1440px);
   padding: 25px;
   display: none;
 }
@@ -75,7 +75,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 0.5rem;
-  padding: 5%;
+  padding: 3rem;
   color: #252f3f;
 }
 
@@ -111,20 +111,19 @@ body {
 
 .resumo .perfil img {
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
   border-radius: 50%;
-  transition: all 0.3s ease;
+  transition: 0.3s;
 }
 
 .perfil img:hover {
-  width: 95%;
   border-radius: 16px;
 }
 
 /*PROJECT*/
 .projects {
   width: 100%;
-  padding: 5%;
+  padding: 3rem;
   color: #252f3f;
 }
 
@@ -138,34 +137,31 @@ body {
 
 .projects .cards-projects {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .cards-projects .card {
-  min-height: 280px;
-  background-color: #fff;
-  border-radius: 16px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+  border-radius: 8px;
+  border: 10px solid white;
   flex: 0 1 230px;
   margin-bottom: 1rem;
   transition: all 0.3s ease;
   position: relative;
+  box-shadow: 15px 50px 25px 5px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
 }
 
 .card:hover {
-  border-radius: 16px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  flex: 0 1 255px;
-  margin-bottom: 1.2rem;
+  box-shadow: 2px 1px 15px rgba(0, 0, 0, 0.1);
   margin-top: -5px;
 }
 
 .card .bg-card img {
   width: 100%;
-  border-radius: 16px 16px 0px 0px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 .card .card-content {
@@ -173,7 +169,7 @@ body {
 }
 
 .card-content h3 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1rem;
   color: #374151;
   margin-bottom: 0.5rem;
@@ -183,15 +179,16 @@ body {
   color: #374151;
   font-size: 0.9rem;
   font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .card .btn {
-  border-radius: 100px;
+  border-radius: 8px;
   padding: 0.4rem;
-  margin-bottom: 0.4rem;
-  margin-left: 0.4rem;
+  /* background: #252f3f; */
+  width: 100%;
   text-align: left;
-  color: #252f3f;
+  color: red;
   position: absolute;
   bottom: 0;
 }
@@ -207,7 +204,7 @@ body {
   text-align: center;
   padding: 2%;
   color: #374151;
-  background-color: rgba(55, 65, 81, 0.137);
+  /* background-color: rgba(55, 65, 81, 0.137); */
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -215,11 +212,12 @@ body {
 .footer p i {
   color: red;
   animation: pulse 1s infinite;
+  margin-left: 1rem;
 }
 
 @keyframes pulse {
   10% {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
 }
 
@@ -278,14 +276,12 @@ body {
   }
 
   .cards-projects .card {
-    min-height: 320px;
+    min-height: 300px;
     flex: 0 1 300px;
   }
 
   .card:hover {
     border-radius: 16px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    flex: 0 1 325px;
     margin-bottom: 1.2rem;
     margin-top: -5px;
   }
@@ -314,16 +310,12 @@ body {
   .resumo .perfil {
     order: -1;
     width: 40%;
+    margin-right: 1rem;
   }
 
-  .resumo .perfil img {
-    margin: 0 auto;
-    width: 80%;
-  }
-
-  .perfil img:hover {
+  /* .perfil img:hover {
     width: 100%;
-  }
+  } */
 
   /*PROJECT*/
   .projects {
@@ -342,8 +334,6 @@ body {
 
   .card:hover {
     border-radius: 16px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    flex: 0 1 325px;
     margin-bottom: 1.2rem;
     margin-top: -5px;
   }
