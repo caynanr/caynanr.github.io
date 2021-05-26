@@ -90,6 +90,16 @@ body {
   margin-bottom: 1rem;
 }
 
+.resumo .resumo-text span {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.resumo .resumo-text p {
+  margin-top: 1.2rem;
+  font-weight: 400;
+}
+
 .resumo .perfil {
   width: 30%;
   justify-self: flex-end;
@@ -123,7 +133,7 @@ body {
 /*PROJECT*/
 .projects {
   width: 100%;
-  padding: 3rem;
+  padding: 0 3rem;
   color: #252f3f;
 }
 
@@ -276,8 +286,8 @@ body {
   }
 
   .cards-projects .card {
-    min-height: 300px;
-    flex: 0 1 300px;
+    min-height: 330px;
+    flex: 0 1 280px;
   }
 
   .card:hover {
