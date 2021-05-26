@@ -137,13 +137,13 @@ body {
 
 .projects .cards-projects {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .cards-projects .card {
-  min-height: 300px;
+  min-height: 330px;
   border-radius: 8px;
   border: 10px solid white;
   flex: 0 1 230px;
