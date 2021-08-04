@@ -13,7 +13,7 @@
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-  width: min(80vw, 1440px);
+  width: min(70vw, 1024px);
 }
 
 /*HEADER MENU*/
@@ -157,7 +157,7 @@ body {
   border-radius: 8px;
   border: 10px solid white;
   flex: 0 1 230px;
-  margin-bottom: 1rem;
+  margin: 0.5rem;
   transition: all 0.3s ease;
   position: relative;
   box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.1);
