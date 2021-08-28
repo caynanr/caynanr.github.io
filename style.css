@@ -86,7 +86,7 @@ body {
 
 .resumo .resumo-text h1 {
   font-weight: 800;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
 }
 
@@ -122,12 +122,9 @@ body {
 .resumo .perfil img {
   margin: 0 auto;
   width: 80%;
-  border-radius: 50%;
-  transition: 0.3s;
-}
+  border-radius: 8px;
 
-.perfil img:hover {
-  border-radius: 16px;
+  transition: 0.3s;
 }
 
 /*PROJECT*/
@@ -154,20 +151,20 @@ body {
 
 .cards-projects .card {
   min-height: 330px;
-  border-radius: 8px;
+  border-radius: 4px;
   border: 10px solid white;
-  flex: 0 1 230px;
+  flex: 0 1 250px;
   margin: 0.5rem;
   transition: all 0.3s ease;
   position: relative;
-  box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: -5px -3px 10px 1px rgba(0, 0, 0, 0.1);
 
-  transition: 0.3s;
+  transition: ease all 0.5s;
 }
 
 .card:hover {
-  box-shadow: 15px 20px 40px 10px rgba(0, 0, 0, 0.1);
-  margin-top: -5px;
+  box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.1);
+  /* margin-top: -5px; */
 }
 
 .card .bg-card img {
